@@ -1,0 +1,20 @@
+Acked-by: Lorem ipsum dolor sit amet
+This line must be included to Acked-by.
+BREAKING CHANGE: Breaking changes with space must be upper
+BREAKING-CHANGE: Breaking changes with hpyen
+breaking-change: Our regex allows this but is check in code if upper case
+Ref ##234 this follow the git trailer convention
+Space-Hash #Should also work
+Test-ColonHash: #256 colon and hashtag should also work together
+Test-Multple: Can I write special characters: !"§$%&/()= ?`´{[]}\,;.:-_#'+*~
+with new line
+
+and a space in between
+
+Test-Hashtag: ##123 after hashtag any character string can follow
+blank line after
+
+Single-Char: #a
+Last-Note: some random string
+
+with a blank after

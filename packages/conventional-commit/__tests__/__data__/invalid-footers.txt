@@ -1,0 +1,31 @@
+====================
+INVALID FOOTERS
+====================
+
+Ref # Lorem
+Ref:  Lorem
+Ref: 
+Ref: #
+Ref: # 
+Ref #
+Ref # 
+Ref 123 this should definitely not be valid
+breaking-change: lower case with hypen is not valid
+breaking change: lower case with space is not valid
+breaking-chAnge: mixed lower and upper case is not valid
+breaKing-chAnge: mixed lower and upper case is not valid
+breaaing chanGe: mixed lower and upper case is not valid
+Breaking chaNge: mixed lower and upper case is not valid
+no hypen: hypen should replace spaced
+with_underscor: underscore is not valid
+_underscore: must be a word character at beginning
+_: non-word characters are not valid
+-: non-word characters are not valid
+allone
+random string
+-: no
+-: n
+_: no
+_: n
+ : n
+ : 

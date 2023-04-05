@@ -1,0 +1,20 @@
+feat(app)!: This can be an arbitrary first line
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet efficitur diam mollis aliquam. In tempus nibh sit amet pretium suscipit. Donec ultrices velit in accumsan mollis. Sed varius scelerisque dapibus.
+Nam suscipit pulvinar pulvinar. Duis vitae eleifend lectus. Phasellus malesuada libero dui, ac semper dolor mollis fringilla. Pellentesque ullamcorper ipsum nec magna tristique, ultrices placerat dolor congue. Ut varius viverra convallis.
+
+U%$eHj7JdRP$EtRnP%CD2k&qV+FuoAo1H71UPQmSAH*Js!BS!O
+Gx4G$VD7mFRhT25O=hEQszZ+!=1Z6f@f=NCAF8jE@*D8aszaR=
+kr1@Gnah7MBxmqogbrR&rBk54cwnhJjC!G8gWoqeM9y1%Y2K9b
+P5c!sqQVG03DcGdHP!NpY4$p@gCeUjf9rWgKeyBPkd*tsp0Z3+
+cng7qUZtTz5BmtB7k7dZq!qRh93Cm+spDUQ=xvTTXZ&ZQ5d7bz
+
+Aenean a sollicitudin metus. Donec ornare velit sit amet posuere lobortis. Nam nec arcu tristique, imperdiet sem in, rutrum metus. Vivamus quis mollis nibh. Etiam leo purus, porttitor non vehicula vitae, rutrum non arcu.
+
+Ref: some random text
+BREAKING-CHANGES: some notes over
+multiple lines
+
+Note: look at this
+
+and this

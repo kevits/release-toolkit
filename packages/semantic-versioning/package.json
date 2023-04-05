@@ -1,0 +1,31 @@
+{
+    "name": "@kevits/semantic-versioning",
+    "version": "0.0.1",
+    "description": "Validates and parses semantic versions",
+    "keywords": [
+        "semantic-versioning",
+        "semantic-versioning-parser",
+        "semantic-versioning-validator"
+    ],
+    "license": "ISC",
+    "author": {
+        "name": "Kevin"
+    },
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kcrumb/conventional-commit-parser-ts.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "format-check": "prettier --check .",
+        "lint": "cd ../../ && eslint ./packages/semantic-versioning/"
+    },
+    "files": [
+        "src"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

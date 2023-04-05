@@ -1,0 +1,8 @@
+feat ( app ): Lorem ipsum dolor sit amet
+feat (app): Lorem ipsum dolor sit amet
+feat( app): Lorem ipsum dolor sit amet
+feat(app ): Lorem ipsum dolor sit amet
+feat(app) : Lorem ipsum dolor sit amet
+feat : Lorem ipsum dolor sit amet
+feat! : Lorem ipsum dolor sit amet
+feat !: Lorem ipsum dolor sit amet

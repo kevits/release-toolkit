@@ -1,0 +1,31 @@
+{
+    "name": "@kevits/conventional-commit",
+    "version": "0.0.1",
+    "description": "Checks and parses commit against the conventional commit standard",
+    "keywords": [
+        "conventional-commit",
+        "conventional-commit-parser",
+        "conventional-commit-validator"
+    ],
+    "license": "ISC",
+    "author": {
+        "name": "Kevin"
+    },
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kcrumb/conventional-commit-parser-ts.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "format-check": "prettier --check .",
+        "lint": "cd ../../ && eslint ./packages/conventional-commit/"
+    },
+    "files": [
+        "src"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

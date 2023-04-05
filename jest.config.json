@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "projects": [
+        "packages/conventional-commit",
+        "packages/semantic-versioning"
+    ]
+}
