@@ -1,7 +1,7 @@
 name: Static Code Check
-# TODO: Add short commit hash, e.g. Run Unit-Tests (f2g5j67k)
-run-name: Run Linter
+
 on: [pull_request]
+
 jobs:
   test:
     runs-on: ubuntu-latest
