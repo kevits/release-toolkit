@@ -1,7 +1,7 @@
 name: Testing
-# TODO: Add short commit hash, e.g. Run Unit-Tests (f2g5j67k)
-run-name: Run Unit-Tests
+
 on: [pull_request]
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -16,4 +16,3 @@ jobs:
         run: npm install
       - name: "Run unit-tests"
         run: npm test
-# TODO: Generate and post (as PR comment and/or in pipeline run) test report

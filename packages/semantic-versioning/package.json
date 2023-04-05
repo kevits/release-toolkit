@@ -14,7 +14,7 @@
     "main": "src/index.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kcrumb/conventional-commit-parser-ts.git"
+        "url": "https://github.com/kevits/release-toolkit.git"
     },
     "scripts": {
         "build": "tsc",
