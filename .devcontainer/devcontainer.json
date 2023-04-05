@@ -2,7 +2,7 @@
     "name": "Node.js & TypeScript",
     "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
     "postCreateCommand": "npm install",
-    "runArgs": ["--name", "conventional-commit-parser-ts"],
+    "runArgs": ["--name", "release-toolkit"],
     "customizations": {
         "vscode": {
             "extensions": [
