@@ -10,7 +10,7 @@ on:
         type: choice
         options:
           - conventional-commit
-          - semantic-versioning
+          #- semantic-versioning
 
 jobs:
   code-check:
