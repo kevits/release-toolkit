@@ -10,8 +10,10 @@ env:
   es2021: true
 parserOptions:
   project:
-    - "./tsconfig.eslint.json"
+    - "tsconfig.eslint.json"
   ecmaVersion: "latest"
+ignorePatterns:
+  - "**/dist/*.js"
 rules:
   "@typescript-eslint/strict-boolean-expressions": "error"
   "@typescript-eslint/no-inferrable-types": "off"
