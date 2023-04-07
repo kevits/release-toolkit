@@ -48,7 +48,7 @@ jobs:
         run: npm test
 
   publish-package:
-    name: "Publish to GitHub Packages"
+    name: "Publish Package"
     needs: [code-check, test]
     runs-on: ubuntu-latest
     permissions:
