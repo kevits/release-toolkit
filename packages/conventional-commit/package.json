@@ -19,7 +19,8 @@
     "scripts": {
         "build": "tsc",
         "test": "jest",
-        "format-check": "prettier --check .",
+        "format": "cd ../../ && prettier --write ./packages/conventional-commit/",
+        "format-check": "cd ../../ && prettier --check ./packages/conventional-commit/",
         "lint": "cd ../../ && eslint ./packages/conventional-commit/",
         "prepare": "npm run build"
     },

@@ -108,7 +108,7 @@ export function parseHeaderToJson(header: string): string {
  * Converts a footer string to a JSON string
  * that follows the schema of the CommitFooter type.
  * @param footer commit footers
- * @returns 
+ * @returns JSON array as string
  */
 export function parseFooterToJson(footer: string): string {
     const parsedFooter: Array<CommitFooter> = parseFooter(footer)
