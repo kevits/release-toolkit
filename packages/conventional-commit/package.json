@@ -11,7 +11,7 @@
     "author": {
         "name": "Kevin"
     },
-    "main": "src/index.ts",
+    "main": "dist/index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/kevits/release-toolkit.git"
@@ -20,12 +20,14 @@
         "build": "tsc",
         "test": "jest",
         "format-check": "prettier --check .",
-        "lint": "cd ../../ && eslint ./packages/conventional-commit/"
+        "lint": "cd ../../ && eslint ./packages/conventional-commit/",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint"
     },
     "files": [
-        "src"
+        "dist"
     ],
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "access": "public"
     }
 }
