@@ -16,6 +16,9 @@
         "type": "git",
         "url": "https://github.com/kevits/release-toolkit.git"
     },
+    "bugs": {
+        "url": "https://github.com/kevits/release-toolkit/issues"
+    },
     "scripts": {
         "build": "tsc",
         "test": "jest",

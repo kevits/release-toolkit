@@ -1,0 +1,27 @@
+name: Security Audit
+
+on:
+  push:
+    branches:
+      - "main"
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  audit:
+    name: Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v3
+      - name: "Setup Node.js"
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: "Install dependencies"
+        run: npm install
+      - name: "Run audit"
+        run: npm audit --audit-level=moderate
