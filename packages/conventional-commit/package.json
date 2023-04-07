@@ -22,7 +22,7 @@
         "format": "cd ../../ && prettier --write ./packages/conventional-commit/",
         "format-check": "cd ../../ && prettier --check ./packages/conventional-commit/",
         "lint": "cd ../../ && eslint ./packages/conventional-commit/",
-        "prepare": "npm run build"
+        "prepack": "npm run build"
     },
     "files": [
         "dist"
