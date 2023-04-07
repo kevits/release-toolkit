@@ -1,6 +1,6 @@
 {
     "name": "@kevits/conventional-commit",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Checks and parses commit against the conventional commit standard",
     "keywords": [
         "conventional-commit",
