@@ -22,7 +22,7 @@ jobs:
       - name: "Setup Node.js"
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: 16
       - name: "Install dependencies"
         run: npm install
       - name: "Run linter"
@@ -57,17 +57,10 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v3
-      # Setup .npmrc file to publish to GitHub Packages
-      - name: "Setup Node.js"
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@kevits"
       - name: "Publish"
         working-directory: "packages/${{ github.event.inputs.package }}"
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish
       - name: "Print summary"
         working-directory: "packages/${{ github.event.inputs.package }}"

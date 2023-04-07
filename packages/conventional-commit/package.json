@@ -21,8 +21,7 @@
         "test": "jest",
         "format-check": "prettier --check .",
         "lint": "cd ../../ && eslint ./packages/conventional-commit/",
-        "prepare": "npm run build",
-        "prepublishOnly": "npm test && npm run lint"
+        "prepare": "npm run build"
     },
     "files": [
         "dist"
