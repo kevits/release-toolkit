@@ -1,2 +1,109 @@
-# Conventional Commit
-TBA
+# `@kevits/conventional-commit`
+
+foo
+
+
+# Functions
+
+## :toolbox: Functions
+
+- [parseFullCommit](#gear-parsefullcommit)
+- [parseHeader](#gear-parseheader)
+- [parseFooter](#gear-parsefooter)
+- [getBodyFromCommit](#gear-getbodyfromcommit)
+- [parseHeaderToJson](#gear-parseheadertojson)
+- [parseFooterToJson](#gear-parsefootertojson)
+- [validateHeader](#gear-validateheader)
+
+### :gear: parseFullCommit
+
+Parse a full commit with header, body and footer and
+save those strings into a Commit type.
+
+| Function | Type |
+| ---------- | ---------- |
+| `parseFullCommit` | `(commit: string) => Commit` |
+
+Parameters:
+
+* `commit`: the whole commit
+
+
+### :gear: parseHeader
+
+Parse the header of a commit.
+
+| Function | Type |
+| ---------- | ---------- |
+| `parseHeader` | `(header: string) => CommitHeader` |
+
+Parameters:
+
+* `header`: commit header
+
+
+### :gear: parseFooter
+
+Parse the footer of a commit.
+
+| Function | Type |
+| ---------- | ---------- |
+| `parseFooter` | `(footer: string) => CommitFooter[]` |
+
+Parameters:
+
+* `footer`: the footer of a commit
+
+
+### :gear: getBodyFromCommit
+
+Extracts the body of an full commit.
+
+| Function | Type |
+| ---------- | ---------- |
+| `getBodyFromCommit` | `(fullCommit: string) => string` |
+
+Parameters:
+
+* `fullCommit`: the whole commit string
+
+
+### :gear: parseHeaderToJson
+
+Converts a header string to a JSON string
+that follow the schema of the CommitHeader type.
+
+| Function | Type |
+| ---------- | ---------- |
+| `parseHeaderToJson` | `(header: string) => string` |
+
+Parameters:
+
+* `header`: commit header
+
+
+### :gear: parseFooterToJson
+
+Converts a footer string to a JSON string
+that follows the schema of the CommitFooter type.
+
+| Function | Type |
+| ---------- | ---------- |
+| `parseFooterToJson` | `(footer: string) => string` |
+
+Parameters:
+
+* `footer`: commit footers
+
+
+### :gear: validateHeader
+
+Validates if the header follows the conventional commit specifications.
+
+| Function | Type |
+| ---------- | ---------- |
+| `validateHeader` | `(headerToValidate: string) => boolean` |
+
+Parameters:
+
+* `headerToValidate`: commit header
