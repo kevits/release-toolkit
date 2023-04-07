@@ -16,6 +16,7 @@
         "type": "git",
         "url": "https://github.com/kevits/release-toolkit.git"
     },
+    "homepage": "https://github.com/kevits/release-toolkit/tree/main/packages/conventional-commit",
     "bugs": {
         "url": "https://github.com/kevits/release-toolkit/issues"
     },
