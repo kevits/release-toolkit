@@ -2,6 +2,6 @@
 
 # Release Toolkit
 
-use prettier and make a script command
+This repository includes tools for releasing process. Currently there are tools for conventional commits and semantic versioning. 
 
-make eslint be runnable in root and on package level
+- [@kevits/conventional-commit](https://www.npmjs.com/package/@kevits/conventional-commit)
